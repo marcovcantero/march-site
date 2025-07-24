@@ -13,7 +13,7 @@ const caveat = Caveat({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={montserrat.className}>
+    <html lang="en" className={`${montserrat.className} ${caveat.className}`}>
       <head>
         <meta charSet="UTF-8" />
         <title>2 years!</title>
