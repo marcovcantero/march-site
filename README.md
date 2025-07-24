@@ -9,7 +9,7 @@ npm run dev
 # or
 yarn dev
 # or
-pnpm dev
+pnpm devdocker pull node:22-alpine
 # or
 bun dev
 ```
